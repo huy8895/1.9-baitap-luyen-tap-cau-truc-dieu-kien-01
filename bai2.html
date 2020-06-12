@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    //Bài 2: Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.
+    let old = +prompt('nhap so tuoi');
+    let dkHocLop10 = old >= 16;
+    if (old <= 0) {
+        alert('so tuoi khong hop le')
+    } else if (dkHocLop10) {
+        document.write('du dieu kien hoc lop 10')
+    } else {
+        document.write('khong du dieu kien hoc lop 10')
+    }
+</script>
+</html>
